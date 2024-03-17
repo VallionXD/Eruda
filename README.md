@@ -1,9 +1,7 @@
 [//]: # (Create a div to center the title and the image.)
 <div align="center">
-    <h1 align="center">Eruda</h1>
-    <div style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
-        <img alt="Eruda Preview" src="https://github.com/VallionXD/Eruda/assets/151787330/64f77792-126a-4968-8869-b9525efcd1cb">
-    </div>
+    <h1 align="center">~ Eruda: Mobile Inspect Element ~</h1>
+    <img alt="Eruda Preview" src="https://github.com/VallionXD/Eruda/assets/151787330/9045a89a-86a7-4c12-b352-95f28df91f00">
 </div>
 
 [//]: # (Use the blank <p> tag to seperate the > after the <p> tag.)

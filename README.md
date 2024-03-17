@@ -1,6 +1,17 @@
 # Eruda
 > Original by liriliri, this is just a backup incase it ever goes down. And this repository has compiled plugin scripts. Everything in here but this message is from liriliri's readme.
 
+Amazing mobile inspect element from a bookmark, made by liriliri.
+
+## Bookmark
+> You can use this bookmark to access eruda any time with the click of a button.
+
+```js
+javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.append(script); script.onload = function () { eruda.init(); } })();
+```
+
+**Script Source:** [https://cdn.jsdelivr.net/npm/eruda](https://cdn.jsdelivr.net/npm/eruda)
+
 ## Configuration
 
 When initialization, a configuration object can be passed in.

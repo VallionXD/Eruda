@@ -18,13 +18,31 @@ javascript:(function () { var script = document.createElement('script'); script.
 ```
 **Script Source:** [https://cdn.jsdelivr.net/npm/eruda](https://cdn.jsdelivr.net/npm/eruda)
 
+## Installation
+> Installation guide for eruda.
+
+### NPM
+> How to install eruda from the npm package.
+
+First, install the package from npm.
+
+```powershell
+npm install eruda --save
+```
+
+Then you can add it to your webpage like so.
+```html
+<script src="node_modules/eruda/eruda.js"></script>
+<script>eruda.init();</script>
+```
+
 ## Configuration
 
 When initialization, a configuration object can be passed in.
 
-* container: Container element. If not set, it will append an element directly
+* `container`: Container element. If not set, it will append an element directly
 under html root element.
-* tool: Choose which default tools you want, by default all will be added.
+* `tool`: Choose which default tools you want, by default all will be added.
 
 For more information, please check the [documentation](doc/API.md).
 

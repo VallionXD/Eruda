@@ -4,12 +4,18 @@
 Amazing mobile inspect element from a bookmark, made by liriliri.
 
 ## Bookmark
-> You can use this bookmark to access eruda any time with the click of a button.
+> You can use these bookmarks to access eruda any time with the click of a button.
 
+### Eruda NPM [JSDelivr]
 ```js
 javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.append(script); script.onload = function () { eruda.init(); } })();
 ```
+**Script Source:** [https://cdn.jsdelivr.net/npm/eruda](https://cdn.jsdelivr.net/npm/eruda)
 
+### My Repo [JSDelivr]
+```js
+javascript:(function () { var script = document.createElement('script'); script.src="https://raw.githubusercontent.com/VallionXD/Eruda/eruda.js"; document.body.append(script); script.onload = function () { eruda.init(); } })();
+```
 **Script Source:** [https://cdn.jsdelivr.net/npm/eruda](https://cdn.jsdelivr.net/npm/eruda)
 
 ## Configuration

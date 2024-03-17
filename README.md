@@ -48,10 +48,12 @@ If you want to create a plugin yourself, follow the guides [here](./doc/PLUGIN.m
 * [eruda-pixel](https://github.com/Faithree/eruda-pixel): UI pixel restoration tool.
 * [eruda-webpack-plugin](https://github.com/huruji/eruda-webpack-plugin): Eruda webpack plugin.
 
-## Backers
+## Original
 
-<a rel="noreferrer noopener" href="https://opencollective.com/eruda" target="_blank"><img src="https://opencollective.com/eruda/backers.svg?width=890"></a>
+[Original Repository Here..](https://github.com/liriliri/eruda/)
 
-## Contribution
+### License
 
-Read [Contributing Guide](.github/CONTRIBUTING.md) for development setup instructions.
+See liriliri's license, as I do not own this software.
+
+[Liriliri's License Here..](https://github.com/liriliri/eruda/blob/master/LICENSE)

@@ -125,7 +125,7 @@ eruda.scale(); // --> 1.5
 The add function is used to add a tool to your current instance of Eruda. Below is an example of how it would work.
 
 ```javascript
-// Add a custom tool to the current instance of eruda.
+// Add a custom tool to the current instance of Eruda.
 eruda.add(new (eruda.Tool.extend({
       // Set the name of the new tool.
       name: "test"
@@ -133,8 +133,8 @@ eruda.add(new (eruda.Tool.extend({
   )
 );
 
-// Add the built-in network tool to the current instance of Eruda.
-eruda.add(eruda.Network);
+// Create a new Eruda Network module, and add it to the currnet instance of Eruda.
+eruda.add(new eruda.Network);
 ```
 
 The remove function is used to add a tool to your current instance of Eruda. Below is an example of how it would work.
